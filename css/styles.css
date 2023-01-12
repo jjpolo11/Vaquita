@@ -1,0 +1,251 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/************************************** Top Container ************************************************/
+.top-container{
+    background-color: #6F1AB6;
+    position: relative;
+    padding-top: 145px;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 375%; 
+    color: whitesmoke ;
+    line-height: 2;
+    /*100% or 1em = 16px ; 60/16 = 375% */
+    /*width: 10%;
+    margin: 0 auto 0 auto; ****this centers if the an object is put a width, which cancels the text-align: center added on the body*/
+}
+
+.subtitle{
+    font-size: 2.5rem;
+    margin: 0;
+    color: gold ;
+}
+
+.movingdragon{
+    position: absolute;
+    left: 100px;
+    transform: rotateY(180deg);
+
+}
+
+.fire{
+    width: 100px;
+    position: absolute;
+    left: 329px;
+    bottom: 255px;
+    transform: rotate3d(1, 1, 3, 65deg);
+}
+
+.fire2{
+    width: 100px;
+    position: absolute;
+    left: 359px;
+    bottom: 268px;
+    transform: rotate3d(1, 1, 3, 65deg);
+}
+.bottom-cloud{
+    position: absolute;
+    left: 450px;
+    bottom: 300px;
+}
+
+.lightning{
+    position: absolute;
+    left: 459px;
+    bottom: 172px;
+    transform: rotate3d(1, 1, 3, 135deg);
+}
+
+.top-cloud{
+    position: absolute;
+    right: 450px;
+    top: 50px;
+}
+
+.lightning2{
+    position: absolute;
+    right: 469px;
+    top: 106px;
+    transform: rotate3d(1, 1, 3, 135deg);
+}
+
+.sword{
+    margin: 0;
+    position: absolute;
+    left: 1240px;
+    top: 232px;
+    width: 150px;
+}
+
+ .canto{
+    margin: 0;
+    position: absolute;
+    left: 1155px;
+    top: 402px;
+    font-size: 25px;
+    width: auto;
+    color: whitesmoke ;
+ }
+
+ .canto:hover{
+    background-color: black;
+ }
+
+
+/****************************** --------------------------- ********************************************/
+
+
+
+.middle-container{
+    background-color: blanchedalmond;
+}
+
+.introduccion{
+    width: 1000px;
+}
+
+h2{
+    margin: 40px;
+    color: cadetblue;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+    color: blueviolet;
+}
+
+.profile{
+    line-height: 2;
+}
+
+p{
+    font-size: 25px;
+    width: 700px;
+    margin: 50px auto 0 auto;
+}
+
+.myskills{
+    margin-top: 80px;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.second-skill{
+    margin-top: 100px;
+    margin: 100px auto 100px auto;
+}
+
+.vaca{
+    margin: 50px;
+    margin-bottom: 0;
+}
+
+.gamer{
+    width: 300px;
+    margin: 20px;
+}
+
+.climbing{
+    width: 300px;
+    margin: 20px;
+    margin-top: 100px; ;
+}
+
+
+
+  .downfall{
+    padding-bottom: 50px;
+    
+  }
+
+
+/************************************** Bottom Container**********************************************/
+
+
+.bottom-container{
+    background-color: #6F1AB6;
+    padding-top: 30px;
+
+}
+
+a{
+    color: whitesmoke ;
+    font-size: 25px;
+    margin: 10px 20px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #11cdd4;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+ .ownership{
+    color: whitesmoke ;
+    font-size: 1rem;
+    padding: 20px 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
